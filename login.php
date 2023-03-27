@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		$error = "Please enter both your email and password.";
 	} else {
 		
-		if ($email == "example@example.com" && $password == "password123") {
+		if ($email == "Null" && $password == "Null") {
 	
 			header("Location: welcome.php?name=John");
 			exit();
